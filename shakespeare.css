@@ -1,0 +1,84 @@
+
+.stage-direction{
+    background-color: black;
+    color: beige;
+    font-family: cursive;
+
+}
+.speech{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 12, 12);
+
+}
+.viola{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+.Captain{
+    font-family: sans-serif;
+    color: chartreuse;
+
+}
+.stage-direction:hover{
+    background-color: aquamarine;
+    color: rebeccapurple;
+}
+.table1{
+    border: 2;
+    color: rgb(0, 255, 60);
+    text-align: center;
+    margin:30px ;
+    padding: 10px;
+}
+.table1 th{
+    border: 2;
+    color: rgb(226, 43, 171);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
+.table1 tr{
+    border: 20px;
+    color: rgb(187, 108, 12);
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(42, 171, 226);
+}
+.viola:hover{
+    background-color: blanchedalmond;
+    color: aqua;
+    text-shadow: 30px,20px,20px red;
+    padding: 30px;
+    margin: 20px;
+    border: 10px;
+    transition: 2s;
+
+
+}
+.Captain:hover{
+    background-color: chocolate;
+    color: cornflowerblue;
+    text-shadow: 30px,20px,20px rgb(104, 193, 87);
+    padding: 30px;
+    margin: 20px;
+    border: 10px;
+    transition: 2s;
+
+
+
+}
+
+.nav{
+    background-color: rgb(121, 215, 241);
+    color: crimson;
+    border: 20px;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    padding: 10px;
+}
