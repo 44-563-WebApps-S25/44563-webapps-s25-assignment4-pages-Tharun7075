@@ -47,10 +47,17 @@
     padding: 10px;
     background-color: rgb(42, 171, 226);
 }
+tr:nth-child(even){
+    background-color: blue;
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 0, 0);
+}
 .viola:hover{
     background-color: blanchedalmond;
     color: aqua;
     text-shadow: 30px,20px,20px red;
+    filter: blur(2px);
     padding: 30px;
     margin: 20px;
     border: 10px;
@@ -62,6 +69,7 @@
     background-color: chocolate;
     color: cornflowerblue;
     text-shadow: 30px,20px,20px rgb(104, 193, 87);
+    filter: blur(2px);
     padding: 30px;
     margin: 20px;
     border: 10px;
